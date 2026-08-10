@@ -1,48 +1,37 @@
-# 🔔 Touchless Doorbell System (IR Proximity Sensor)
+# 🚘 Anti-Sleep Alarm System with Engine Cutoff for Drivers
 
-An innovative, contactless, and hygienic smart doorbell system designed to eliminate physical surface contact using Infrared (IR) sensing technology.
+An IoT & Embedded Systems project designed to prevent road accidents caused by driver fatigue. It continuously monitors eye movements via eyewear-mounted IR sensors, triggering an audible alarm and automatic engine cutoff if prolonged eye closure is detected.
 
 ---
 
-## 📌 Project Overview
-Traditional doorbells require physical touch, making them high-contact surfaces that can easily transmit germs and viruses. This project presents a hardware solution for a **Touchless Doorbell** that automatically detects hand proximity and triggers an alert signal without any physical contact.
+## 📌 Problem & Solution Overview
+- **The Problem:** Drowsy driving severely impairs reaction times and is a primary cause of major road accidents worldwide.
+- **The Solution:** A wearable, real-time eye-monitoring safety device using Arduino. If the driver falls asleep, the system first sounds a high-decibel alarm and subsequently cuts power to the vehicle's motor/engine using a relay module.
 
 ---
 
 ## ⚡ Key Features
-- **Contactless Operation:** Uses IR Proximity sensing for touch-free activation.
-- **Dual Output Alert:** Triggers both a visual (LED) and audible (Buzzer) response.
-- **Adjustable Sensitivity:** Integrated potentiometer for range calibration.
-- **Cost-Effective & Compact:** Built using easily available discrete components and an op-amp comparator.
+- **Wearable IR Detection:** Eye-blink sensor non-intrusively mounted on eyeglasses.
+- **Multi-Stage Alert Logic:** 
+  1. Detects eye closure ($\ge 5\text{ seconds}$).
+  2. Triggers Piezo Buzzer to wake up the driver.
+  3. If unresponsive ($\ge 2\text{ additional seconds}$), activates 5V Relay to cut engine power safely.
+- **Fail-Safe Mechanism:** Automatic cutoff prevents runaway vehicle scenarios when a driver passes out completely.
 
 ---
 
-## 🛠️ Circuit & Component Details
+## 🛠️ Hardware Components
 
-### Hardware Components
-| Component | Specification | Quantity |
-| :--- | :--- | :--- |
-| **Op-Amp IC** | LM358 (Dual Operational Amplifier) | 1 |
-| **Sensors** | IR LED Transmitter & IR Photodiode Receiver | 1 Pair |
-| **Output Indicators** | Piezo Buzzer & Red LED | 1 Each |
-| **Sensitivity Adjustment** | 10kΩ Potentiometer / Preset | 1 |
-| **Resistors** | 100Ω, 220Ω, 10kΩ | As required |
-| **Power Supply** | 9V DC Battery | 1 |
-| **Board** | Custom PCB / Zero PCB Board | 1 |
-
----
-
-## ⚙️ How It Works (Working Principle)
-1. **Infrared Emission:** The IR LED continuously emits invisible light into the immediate environment.
-2. **Reflection & Detection:** When a hand or object comes near, the light reflects back into the Photodiode receiver, dropping its resistance.
-3. **Signal Comparison:** The LM358 IC compares the incoming voltage from the receiver against a predefined threshold voltage set by the potentiometer.
-4. **Trigger Output:** When the sensor voltage exceeds the threshold, LM358 outputs a HIGH signal, activating the Buzzer and illuminating the LED indicator.
+| Component | Function / Role |
+| :--- | :--- |
+| **Arduino Uno** | Main Microcontroller processing sensor inputs and timing logic |
+| **Eye Blink Sensor (IR)** | Transmits/Receives IR rays off the eye to check open/closed status |
+| **5V Single-Channel Relay** | Controls power supply to the gear motor (Engine Cutoff) |
+| **Piezo Buzzer** | High-decibel audio alert mechanism |
+| **DC Gear Motor** | Simulates the vehicle's engine/drivetrain operation |
+| **9V DC Battery & Power Switch** | Portable power source for the prototype |
+| **Eyeglasses Frame** | Wearable mount for the IR sensor assembly |
 
 ---
 
-## 📊 Schematic & Layout
-> *Place your circuit diagram and PCB photos here.*
-- `Circuit Diagram`: Included in report docs.
-- `PCB Board Design`: Copper-clad / Zero PCB implementation.
-
----
+## ⚙️ System Workflow Logic
