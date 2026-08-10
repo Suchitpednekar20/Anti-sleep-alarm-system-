@@ -1,6 +1,15 @@
-# 🚗 Anti-Sleep Alarm System for Drivers (Arduino Based)
+# 🚗 Anti-Sleep Alarm System for Drivers (Arduino-Based)
 
 An Embedded Safety Solution designed to prevent road accidents caused by driver fatigue, drowsiness, and prolonged eye closure using real-time IR sensor monitoring and automatic engine cut-off mechanism.
+
+---
+
+## 📹 Live Project Demonstration
+
+<!-- Live Video / GIF Embed -->
+![Working Demo](assets/working_demo.gif)
+
+> *Watch the driver drowsiness detection, buzzer alarm trigger, and relay motor cut-off in action.*
 
 ---
 
@@ -17,6 +26,14 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 ---
 
+## 📸 Hardware Setup & Circuit Diagram
+
+| Hardware Setup | Circuit Diagram |
+| :---: | :---: |
+| ![Hardware Model](assets/hardware_setup.jpg) | ![Circuit Schematic](assets/circuit_diagram.jpg) |
+
+---
+
 ## 🛠️ Hardware & Components Used
 
 | Component | Function | Quantity |
@@ -30,11 +47,10 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 ---
 
-## ⚙️ Circuit & Working Logic
-1. **Normal State:** The driver wears the eyeglasses integrated with the Eye Blink Sensor. The DC gear motor runs continuously via the relay (simulating normal driving).
-2. **Detection:** When the driver's eyes close for more than a set threshold (e.g., 3 to 5 seconds), the IR receiver detects continuous light reflection.
-3. **Alarm Trigger:** Arduino processes the signal and immediately sounds the Piezo Buzzer to alert the driver.
-4. **Engine Cut-off:** If eye closure persists for an extended period, Arduino triggers the 5V Relay to open the circuit, stopping the motor/engine to prevent an accident.
+## 👥 Authors & Contributors
+- **Suchit Pednekar**
+- **Monika Panmand**
+- **Supriya Gavhane**
+- **Arvind Golatkar**
 
----
-
+*Under the guidance of Prof. Vijaypal Yadav — Department of Electronics & Telecommunication Engineering, Terna Engineering College (University of Mumbai).*
