@@ -1,5 +1,3 @@
-<img width="226" height="181" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/84247e51-bd45-4cfe-85ab-d7b905ecbdf7" /><img width="226" height="181" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/a3f01709-940d-4684-b370-2fd836334869" />
-
 # 🚗 Anti-Sleep Alarm System for Drivers (Arduino-Based)
 
 An Embedded Safety Solution designed to prevent road accidents caused by driver fatigue, drowsiness, and prolonged eye closure using real-time IR sensor monitoring and automatic engine cut-off mechanism.
@@ -9,11 +7,13 @@ An Embedded Safety Solution designed to prevent road accidents caused by driver 
 ## 📹 Live Project Demonstration
 
 <!-- Live Video / GIF Embed -->
-![Working Demo](
+
+
+Uploading 2anti -sleep alarm system video.mp4…
 
 
 
-)
+
 
 > *Watch the driver drowsiness detection, buzzer alarm trigger, and relay motor cut-off in action.*
 
@@ -34,14 +34,9 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 ## 📸 Hardware Setup & Circuit Diagram
 
-|| Hardware Setup | Circuit Diagram |
+| Hardware Setup | Circuit Diagram |
 | :---: | :---: |
-
-
- <img width="226" height="182" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/88bcad57-8320-41ab-befe-6b9a8311a736" /> 
- 
- <img width="226" height="182" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/b6cdfdf5-e5ca-4b9e-9f5e-979dc03b0ccc" /> 
- 
+| <img width="226" height="182" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/88665087-909a-46dd-8dd3-2f23cae7f05d" />|  <img width="226" height="182" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/26f368bb-437d-4421-9802-f73090a1a846" />|
 
 ---
 
@@ -65,9 +60,3 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 - **Arvind Golatkar**
 
 *Under the guidance of Prof. Vijaypal Yadav — Department of Electronics & Telecommunication Engineering, Terna Engineering College (University of Mumbai).*
-
-
-
-
-
- 
