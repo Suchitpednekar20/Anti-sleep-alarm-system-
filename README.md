@@ -30,7 +30,8 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 | Hardware Setup | Circuit Diagram |
 | :---: | :---: |
-| ![Hardware Model](https://github.com/user-attachments/assets/3c328cd6-1c54-4472-ad07-1672e5e90e8f) | ![Circuit Schematic](<img width="1296" height="831" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/feff2a58-deb1-4ad9-a9c2-9071074d69b5" />) |
+| ![Hardware Model](https://github.com/user-attachments/assets/3c328cd6-1c54-4472-ad07-1672e5e90e8f) | ![Circuit Schematic](<img width="1296" height="831" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/55a68c37-cf1a-4bb8-b450-4175956085b1" />
+) |
 
 ---
 
