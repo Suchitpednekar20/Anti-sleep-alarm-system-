@@ -7,7 +7,9 @@ An Embedded Safety Solution designed to prevent road accidents caused by driver 
 ## 📹 Live Project Demonstration
 
 <!-- Live Video / GIF Embed -->
-![Working Demo](assets/working_demo.gif)
+![Working Demo](
+
+)
 
 > *Watch the driver drowsiness detection, buzzer alarm trigger, and relay motor cut-off in action.*
 
