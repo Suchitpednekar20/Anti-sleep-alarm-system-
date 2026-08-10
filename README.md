@@ -1,4 +1,5 @@
-<img width="926" height="482" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/a3f01709-940d-4684-b370-2fd836334869" /># 🚗 Anti-Sleep Alarm System for Drivers (Arduino-Based)
+<img width="926" height="482" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/a3f01709-940d-4684-b370-2fd836334869" />
+# 🚗 Anti-Sleep Alarm System for Drivers (Arduino-Based)
 
 An Embedded Safety Solution designed to prevent road accidents caused by driver fatigue, drowsiness, and prolonged eye closure using real-time IR sensor monitoring and automatic engine cut-off mechanism.
 
@@ -30,8 +31,7 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 | Hardware Setup | Circuit Diagram |
 | :---: | :---: |
-| ![Hardware Model](<img width="926" height="482" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/faac0a2f-3966-4d50-853f-3512a16318da" />) | ![Circuit Schematic](<img width="926" height="482" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/55a68c37-cf1a-4bb8-b450-4175956085b1" />
-) |
+| ![Hardware Model](<img width="926" height="482" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/e4f891e0-e1e3-4263-a219-b89c46438e11" />) | ![Circuit Schematic](<img width="926" height="482" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/55a68c37-cf1a-4bb8-b450-4175956085b1" />) |
 
 ---
 
