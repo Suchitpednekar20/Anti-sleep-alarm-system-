@@ -1,17 +1,56 @@
-Developed a safety-focused Embedded System designed to prevent road accidents caused by driver fatigue. The system monitors driver activity in real-time and triggers an immediate audible alarm if signs of drowsiness (eye closure for a specific duration) are detected.
+# 🔔 Touchless Doorbell System (IR Proximity Sensor)
 
-​Key Technical Features:
-1. Sensor Integration: Utilized IR Sensors / Eye Blink Sensors to track eyelid movement and blink patterns.
-2. ​Processing Unit: Programmed [Aapka board, e.g., Arduino/ESP32] to process real-time sensor data and calculate blink duration.
-3. ​Alert Mechanism: Integrated a high-decibel Buzzer and LED indicators for instant driver notification upon detecting fatigue.
-4. ​Threshold Logic: Implemented time-based delay logic to distinguish between a natural blink and drowsy eye closure, minimizing false alarms.
-​Power Management: Designed the circuit to operate efficiently on vehicle-standard power levels (5V/12V).
+An innovative, contactless, and hygienic smart doorbell system designed to eliminate physical surface contact using Infrared (IR) sensing technology.
 
-​Skills Applied: 
-Embedded C | Sensor Interfacing | Circuit Design | Prototyping
+---
 
-<p align="center">
-  <img src="photo1.jpg" width="45%" /> 
-  <img src="photo2.jpg" width="45%" />
-</p>
-<p align="center"><i>Main LT Panel and Component Wiring (Lechler India Internship)</i></p>
+## 📌 Project Overview
+Traditional doorbells require physical touch, making them high-contact surfaces that can easily transmit germs and viruses. This project presents a hardware solution for a **Touchless Doorbell** that automatically detects hand proximity and triggers an alert signal without any physical contact.
+
+---
+
+## ⚡ Key Features
+- **Contactless Operation:** Uses IR Proximity sensing for touch-free activation.
+- **Dual Output Alert:** Triggers both a visual (LED) and audible (Buzzer) response.
+- **Adjustable Sensitivity:** Integrated potentiometer for range calibration.
+- **Cost-Effective & Compact:** Built using easily available discrete components and an op-amp comparator.
+
+---
+
+## 🛠️ Circuit & Component Details
+
+### Hardware Components
+| Component | Specification | Quantity |
+| :--- | :--- | :--- |
+| **Op-Amp IC** | LM358 (Dual Operational Amplifier) | 1 |
+| **Sensors** | IR LED Transmitter & IR Photodiode Receiver | 1 Pair |
+| **Output Indicators** | Piezo Buzzer & Red LED | 1 Each |
+| **Sensitivity Adjustment** | 10kΩ Potentiometer / Preset | 1 |
+| **Resistors** | 100Ω, 220Ω, 10kΩ | As required |
+| **Power Supply** | 9V DC Battery | 1 |
+| **Board** | Custom PCB / Zero PCB Board | 1 |
+
+---
+
+## ⚙️ How It Works (Working Principle)
+1. **Infrared Emission:** The IR LED continuously emits invisible light into the immediate environment.
+2. **Reflection & Detection:** When a hand or object comes near, the light reflects back into the Photodiode receiver, dropping its resistance.
+3. **Signal Comparison:** The LM358 IC compares the incoming voltage from the receiver against a predefined threshold voltage set by the potentiometer.
+4. **Trigger Output:** When the sensor voltage exceeds the threshold, LM358 outputs a HIGH signal, activating the Buzzer and illuminating the LED indicator.
+
+---
+
+## 📊 Schematic & Layout
+> *Place your circuit diagram and PCB photos here.*
+- `Circuit Diagram`: Included in report docs.
+- `PCB Board Design`: Copper-clad / Zero PCB implementation.
+
+---
+
+## 👥 Authors & Contributors
+- **Suchit Pednekar**
+- **Arvind Golatkar**
+- **Wilson Metri**
+- **Parth Kulkarni**
+
+*Under the guidance of Prof. Vijaypal Yadav — Department of Electronics & Telecommunication Engineering, Terna Engineering College (University of Mumbai).*
