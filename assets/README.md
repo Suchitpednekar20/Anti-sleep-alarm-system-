@@ -30,11 +30,7 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 | Hardware Setup | Circuit Diagram |
 | :---: | :---: |
-| ![Hardware Model](
-
-Uploading WhatsApp Video 2026-04-05 at 6.31.24 PM.mp4…
-
-) | ![Circuit Schematic](assets/circuit_diagram.jpg) |
+| ![Hardware Model](assets/hardware_setup.jpg) | ![Circuit Schematic](assets/circuit_diagram.jpg) |
 
 ---
 
