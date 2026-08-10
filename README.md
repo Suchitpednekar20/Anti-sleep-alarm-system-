@@ -1,5 +1,5 @@
 <img width="226" height="181" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/84247e51-bd45-4cfe-85ab-d7b905ecbdf7" /><img width="226" height="181" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/a3f01709-940d-4684-b370-2fd836334869" />
-}
+
 # 🚗 Anti-Sleep Alarm System for Drivers (Arduino-Based)
 
 An Embedded Safety Solution designed to prevent road accidents caused by driver fatigue, drowsiness, and prolonged eye closure using real-time IR sensor monitoring and automatic engine cut-off mechanism.
@@ -9,7 +9,11 @@ An Embedded Safety Solution designed to prevent road accidents caused by driver 
 ## 📹 Live Project Demonstration
 
 <!-- Live Video / GIF Embed -->
-![Working Demo](assets/working_demo.gif)
+![Working Demo](
+
+
+
+)
 
 > *Watch the driver drowsiness detection, buzzer alarm trigger, and relay motor cut-off in action.*
 
