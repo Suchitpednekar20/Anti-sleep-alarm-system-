@@ -1,4 +1,4 @@
-<img width="626" height="382" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/a3f01709-940d-4684-b370-2fd836334869" />
+<img width="226" height="181" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/bd0f5ffa-9322-488c-8e70-8fbe23128114" /><img width="226" height="181" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/84247e51-bd45-4cfe-85ab-d7b905ecbdf7" /><img width="226" height="181" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/a3f01709-940d-4684-b370-2fd836334869" />
 }
 # 🚗 Anti-Sleep Alarm System for Drivers (Arduino-Based)
 
@@ -32,7 +32,8 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 
 || Hardware Setup | Circuit Diagram |
 | :---: | :---: |
-| ![Hardware Model](assets/hardware_setup.jpg) | ![Circuit Schematic](assets/circuit_diagram.jpg) |
+| ![Hardware Model]( <img width="226" height="182" alt="Gemini_Generated_Image_99ff6r99ff6r99ff" src="https://github.com/user-attachments/assets/88bcad57-8320-41ab-befe-6b9a8311a736" />) | ![Circuit Schematic](<img width="226" height="182" alt="Gemini_Generated_Image_djmsdedjmsdedjms" src="https://github.com/user-attachments/assets/b6cdfdf5-e5ca-4b9e-9f5e-979dc03b0ccc" />
+) |
 
 ---
 
@@ -56,3 +57,9 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 - **Arvind Golatkar**
 
 *Under the guidance of Prof. Vijaypal Yadav — Department of Electronics & Telecommunication Engineering, Terna Engineering College (University of Mumbai).*
+
+
+
+
+
+ 
