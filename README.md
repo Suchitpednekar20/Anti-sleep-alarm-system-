@@ -46,11 +46,3 @@ Traditional doorbells require physical touch, making them high-contact surfaces 
 - `PCB Board Design`: Copper-clad / Zero PCB implementation.
 
 ---
-
-## 👥 Authors & Contributors
-- **Suchit Pednekar**
-- **Arvind Golatkar**
-- **Wilson Metri**
-- **Parth Kulkarni**
-
-*Under the guidance of Prof. Vijaypal Yadav — Department of Electronics & Telecommunication Engineering, Terna Engineering College (University of Mumbai).*
