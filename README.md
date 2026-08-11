@@ -56,11 +56,3 @@ Drowsy driving is a major cause of road accidents worldwide. This project provid
 | **Accessories** | Eyewear Frame, Jumper Wires, SPST Switch | As required |
 
 ---
-
-## 👥 Authors & Contributors
-- **Suchit Pednekar**
-- **Monika Panmand**
-- **Supriya Gavhane**
-- **Arvind Golatkar**
-
-*Under the guidance of Prof. Vijaypal Yadav — Department of Electronics & Telecommunication Engineering, Terna Engineering College (University of Mumbai).*
